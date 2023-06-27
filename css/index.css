@@ -1,0 +1,159 @@
+nav a:nth-child(1) {
+  background-color: var(--color-red);
+}
+
+.banner {
+  height: 26em;
+  width: 100%;
+  color: #fff;
+  background-size: cover;
+  background-position: bottom;
+  background-image: url('../images/flahs-banner.jpg');
+}
+
+.banner .shadow {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.banner .shadow a {
+  margin-left: 10em;
+  margin-top: 18em;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.banner a {
+  color: #fff;
+  font-weight: 700;
+}
+
+.banner a span {
+  display: inline-block;
+  height: .8em;
+  width: 2em;
+  background-image: url('../images/icons/arrow-right.svg');
+  transition: 200ms;
+}
+
+.banner a:hover {
+  opacity: 0.8;
+  transition: 200ms;
+} 
+
+.description {
+  width: 50%;
+  padding-left: 6em;
+}
+
+.banner p {
+  font-size: 1.2rem;
+}
+
+.banner .title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: .6em;
+}
+
+.content {
+  background-color: var(--color-light-black);
+  color: #fff;
+  font-size: 1.2em;
+}
+
+
+.content section {
+  height: 20em;
+  width: 100%;
+	overflow:hidden;
+	position: relative;
+}
+
+
+
+.content section:last-child {
+  padding-bottom: 4em;
+}
+
+.content p {
+  padding: 2em 6em;
+}
+
+
+.img-list {
+  display: flex;
+  width: 8em;
+  transition: 200ms;
+}
+
+.film-img {
+  position: absolute;
+  width: 6em;
+  min-width: 6em;
+  height: 10em;
+  background-color: aqua;
+  margin-left: 1em;
+  position: relative;
+  background-size: cover;
+}
+
+.film-img a {
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  transition: 200ms;
+}
+.film-img a:hover { 
+  transition: 200ms;
+  background-color: #fff;
+  opacity: 0.2;
+}
+.film-img p {
+  display: block;
+  position: absolute;
+  padding: 0;
+  margin-top: 13em;
+  font-size: .8em;
+}
+
+.film-img:nth-child(1) {
+  margin-left: 4em;
+}
+
+.content button {
+  position: absolute;
+  right: 0;
+  z-index: 3;
+  height: 15em;
+  width: 6.4em;
+  margin-left: auto;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  
+  transition: 200ms;
+
+  background: linear-gradient(90deg,
+  rgba(255,255,255,0) 0%, 
+  var(--color-light-black) 98%);
+}
+
+.content button div {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  background-image: url('../images/icons/arrow-right.svg');
+  background-size: 40%;
+}
+
+.content button div:hover {
+  opacity: 0.5;
+  transition: 200ms;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/app.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <script src="../js/data.js" defer></script>
+  <script src="../js/app.js" defer></script>
+  <script src="../js/index.js" defer></script>
+</head>
+<body>
+  <header>
+    <a href="./index.html" class="logo img"></a>
+    <a href="./index.html" class="logo-title">Fruberg</a>
+    <nav>
+      <a href="./index.html">Inicio</a>
+      <a href="./filmes.html">Filmes</a>
+      <a href="./series.html">Séries</a>
+      <a class="login" href="#">Login <span class="img"></span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banner img">
+      <div class="shadow">
+        <div class="description">
+          <p class="title">Flash Worlds Collide</p>
+          <p>Barry Allen (Ezra Miller) é um jovem com uma vida introspectiva, sem amigos e, claramente, confuso. Ele é também o alter-ego de The Flash, um super-herói que trabalha com a Liga da Justiça, combatendo o crime e salvando o dia. Entretanto, sua obsessão é entender os motivos que levaram à morte da sua mãe.</p>
+        </div>
+        <a target="_blank" href="https://www.youtube.com/watch?v=DB65CrJkNwI">
+          Ver mais sobre o filme <span class="img"></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="content">
+      <section>
+        <p>Melhores filmes e séries</p>
+        
+
+        <button onclick='nextList("list", -72)' class="img">
+          <div class="img"></div>
+        </button>
+        <div class="img-list" id="list"></div>
+      </section>
+      <section>
+        <p>Filmes que talvez você possa gostar</p>
+
+
+        <button onclick='nextList("list2", -36)' class="img">
+          <div class="img"></div>
+        </button>
+        <div class="img-list" id="list2"></div>
+      </section>
+    </section>
+  </main>
+  
+  <footer>
+    <section class="info-footer">
+      <div class="sala">
+        <p>Trabalho escolar: </p>
+        <p>
+          1° Ano Desenvolvimento de Sistemas
+        </p>
+        <p>
+          Feito para matéria Programação Web I
+        </p>
+        <p>
+          Criado em 06/2023
+        </p>
+      </div>
+      
+      <div class="objetivo">
+        <p>Objetivos do site: </p>
+        <p>
+          Possibilitar ao acesso de informações 
+          sobre filmes no geral.
+        </p>
+        <p>
+          Recomendar filmes da atualidade.
+        </p>
+      </div>
+
+      <div class="names">
+        <p>Criado por: </p>
+        <p>
+          Felipe Martins Frudeli
+        </p>
+        <p>
+          João Felipe
+        </p>
+        <p>
+          1 ° DS - Turma B - 2 Div 
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="nav-footer">
+      <a href=""></a>
+      <div class="logo img"></div>
+      <p class="logo-title">Fruberg</p>
+      <div class="creditos">
+        &#169; Todo os direitos são de uso livre
+      </div>
+    </section>
+  </footer>
+</body>
+</html>

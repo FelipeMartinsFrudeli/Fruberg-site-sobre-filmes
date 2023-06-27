@@ -1,0 +1,41 @@
+
+footer {
+  color: #fff;
+  background-color: var(--color-dark-black);
+}
+
+footer hr {
+  margin-top: 1em;
+}
+
+.info-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 4em;
+  padding: 2em 10em;
+}
+
+.info-footer p {
+  font-size: 0.8em;
+  margin-top: 1em;
+}
+.info-footer p:first-child {
+  letter-spacing: .2em;
+  font-weight: 700;
+  margin-bottom: 1em;
+  display: block;
+  font-size: 1.1em;
+}
+
+
+
+.nav-footer {
+  display: flex;
+  height: 4em;
+  align-items: center;
+}
+
+.creditos {
+  margin-left: auto;
+  margin-right: 4em;
+}
